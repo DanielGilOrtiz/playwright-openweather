@@ -142,7 +142,7 @@ test.describe("Current Weather Data API", () => {
         });
     });
 
-        [
+    [
         { lat: 41.38, lon: 2.17, id: 6544106, country: "ES", city: "Ciutat Vella" },
         { lat: 40.71, lon: -74.00, id: 5128581, country: "US", city: "New York" },
         { lat: 48.85, lon: 2.35, id: 2988507, country: "FR", city: "Paris" },
