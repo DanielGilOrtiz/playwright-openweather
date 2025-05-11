@@ -21,6 +21,13 @@ cd open-weather-map
 npm install
 ```
 
+3. Install Playwright browsers:
+```bash
+npx playwright install
+```
+
+> Note: While `npm install` will install the Playwright framework, the last command is required to download the browser binaries that Playwright needs to run the tests.
+
 ## Configuration
 
 Add your OpenWeatherMap API key to the `.env` file in the root directory:
