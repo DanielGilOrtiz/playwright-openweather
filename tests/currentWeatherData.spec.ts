@@ -1,4 +1,4 @@
-import { test, expect, APIRequest, APIRequestContext } from "@playwright/test";
+import { test, expect } from "@playwright/test";
 import { weatherConditions } from "../constants/weatherConditions";
 import dotenv from 'dotenv';
 dotenv.config();
