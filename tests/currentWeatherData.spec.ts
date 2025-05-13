@@ -231,7 +231,7 @@ test.describe("Current Weather Data API", () => {
             expect(response.status()).toBe(400);
             const data = await response.json();
 
-            expect(data).toHaveProperty("message", expectedMessage);
+            expect(data.message).toBe(expectedMessage);
         });
     });
 
