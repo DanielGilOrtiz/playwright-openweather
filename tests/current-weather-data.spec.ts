@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { weatherConditions } from "../constants/weatherConditions";
+import { weatherConditions } from "../constants/weather-conditions";
 import dotenv from 'dotenv';
 dotenv.config();
 
