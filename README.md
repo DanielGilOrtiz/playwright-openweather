@@ -1,6 +1,6 @@
 # Automated API Testing for OpenWeather using Playwright
 
-This project contains automated API tests for the OpenWeatherMap Current Weather Data API using Playwright.
+This project contains automated API tests for the OpenWeather API using Playwright.
 
 ## Prerequisites
 
