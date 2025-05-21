@@ -56,13 +56,13 @@ npm run show-report
 
 ```
 ├── constants/
-│   └── weatherConditions.ts                # Weather conditions mapping
+│   └── weather-conditions.ts                   # Weather conditions mapping
 ├── tests/
-│   └── currentWeatherData.spec.ts    
-│   └── fiveDaysWeatherForecast.spec.ts     # TBC 
-├── playwright.config.ts                    # Playwright configuration
-├── package.json                            # Project dependencies
-└── .env                                    # Environment variables
+│   └── current-weather-data.spec.ts    
+│   └── five-days-weather-forecast.spec.ts      # TBC 
+├── playwright.config.ts                        # Playwright configuration
+├── package.json                                # Project dependencies
+└── .env                                        # Environment variables
 ```
 
 ## Environment Variables
